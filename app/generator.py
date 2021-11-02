@@ -9,7 +9,7 @@ def change_x(x):
     return x
 
 def count_iterations(secret):
-    iterations = 0
+    iterations: int = 0
     for letter in secret:
         iterations += ord(letter)
     iterations *= 356473
